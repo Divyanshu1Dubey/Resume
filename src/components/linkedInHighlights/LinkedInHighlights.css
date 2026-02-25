@@ -1,0 +1,193 @@
+/* LinkedIn Featured Posts Section */
+.li-featured-section {
+  margin-top: 50px;
+  padding: 0 40px 30px;
+  text-align: center;
+}
+
+.li-featured-title {
+  font-size: 56px;
+  font-weight: 600;
+  font-family: "Google Sans Medium";
+  margin-bottom: 8px;
+}
+
+.li-featured-subtitle {
+  font-size: 20px;
+  font-family: "Google Sans Regular";
+  margin-bottom: 36px;
+}
+
+/* Scrollable card row */
+.li-cards-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 8px 4px 16px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.li-cards-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.li-cards-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.li-cards-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+/* Individual post card — LinkedIn style */
+.li-post-card {
+  flex: 0 0 220px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px 18px;
+  min-height: 150px;
+  text-decoration: none;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  cursor: pointer;
+  text-align: left;
+}
+
+.li-post-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.li-post-card-top {
+  flex: 1;
+}
+
+.li-post-type {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Google Sans Regular", sans-serif;
+}
+
+.li-post-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+  font-family: "Google Sans Medium", sans-serif;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Bottom reactions row */
+.li-post-card-bottom {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.li-post-reactions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-family: "Google Sans Regular", sans-serif;
+}
+
+.li-reaction-icons {
+  font-size: 14px;
+  letter-spacing: -3px;
+  margin-right: 4px;
+}
+
+.li-reaction-count {
+  font-weight: 500;
+}
+
+.li-comment-count {
+  margin-left: 2px;
+}
+
+/* View LinkedIn button */
+.li-view-profile {
+  margin-top: 28px;
+}
+
+.li-profile-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border: 2px solid #0A66C2;
+  border-radius: 24px;
+  color: #0A66C2;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Google Sans Medium", sans-serif;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.li-profile-btn:hover {
+  background: #0A66C2;
+  color: #fff;
+}
+
+.li-profile-btn:hover .li-icon {
+  filter: brightness(0) invert(1);
+}
+
+.li-icon {
+  transition: filter 0.25s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .li-featured-section {
+    padding: 0 16px 20px;
+    margin-top: 30px;
+  }
+
+  .li-featured-title {
+    font-size: 30px;
+  }
+
+  .li-featured-subtitle {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .li-cards-scroll {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .li-post-card {
+    flex: 0 0 200px;
+    min-height: 140px;
+    padding: 14px;
+  }
+
+  .li-post-title {
+    font-size: 14px;
+  }
+
+  .li-profile-btn {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}

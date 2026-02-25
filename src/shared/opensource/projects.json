@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "id": "august-automation",
+      "name": "AUGUST_AUTOMATION_LAST",
+      "createdAt": "2025-03-10T05:44:21Z",
+      "url": "https://github.com/Divyanshu1Dubey/AUGUST_AUTOMATION_LAST",
+      "description": "Full-stack automation project with CSS, HTML, JavaScript, Python, and Java.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        }
+      ]
+    },
+    {
+      "id": "movie-study",
+      "name": "Movie_Succes_And_Sentiment_Study",
+      "createdAt": "2025-05-18T19:35:37Z",
+      "url": "https://github.com/Divyanshu1Dubey/Movie_Succes_And_Sentiment_Study",
+      "description": "Movie Success and Sentiment Analysis Study using Python and Jupyter Notebook.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "elevate",
+      "name": "Elevate",
+      "createdAt": "2025-04-21T15:30:17Z",
+      "url": "https://github.com/Divyanshu1Dubey/Elevate",
+      "description": "Elevate – Python and Jupyter Notebook based project.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "todo-auth",
+      "name": "To_Do_with_Auth",
+      "createdAt": "2025-05-07T15:23:47Z",
+      "url": "https://github.com/Divyanshu1Dubey/To_Do_with_Auth",
+      "description": "To-Do application with authentication built with Python and HTML.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "name": "Divyanshu1Dubey",
+      "url": "https://github.com/Divyanshu1Dubey/Divyanshu1Dubey",
+      "description": "Config files for my GitHub profile.",
+      "createdAt": "2023-09-10T09:54:19Z",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "isFork": false,
+      "languages": []
+    },
+    {
+      "name": "FirstCall",
+      "url": "https://github.com/Divyanshu1Dubey/FirstCall",
+      "description": "PU-Code_Hackathon_2.0",
+      "createdAt": "2025-02-01T16:17:41Z",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "SCSS",
+          "iconifyClass": "logos:code"
+        },
+        {
+          "name": "Less",
+          "iconifyClass": "logos:code"
+        }
+      ]
+    },
+    {
+      "name": "Intel_Unnati_AI_tutor_project1",
+      "url": "https://github.com/Divyanshu1Dubey/Intel_Unnati_AI_tutor_project1",
+      "description": null,
+      "createdAt": "2025-04-05T17:56:45Z",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "name": "AUGUST_AUTOMATION",
+      "url": "https://github.com/Divyanshu1Dubey/AUGUST_AUTOMATION",
+      "description": null,
+      "createdAt": "2025-03-10T05:36:34Z",
+      "stargazerCount": 0,
+      "forkCount": 0,
+      "isFork": false,
+      "languages": []
+    }
+  ]
+}

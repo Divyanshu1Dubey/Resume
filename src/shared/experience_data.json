@@ -1,0 +1,73 @@
+{
+	"title": "Experience",
+	"subtitle": "Work, Internship and Volunteership",
+	"description": "Bachelors in Data Science & Applications (IIT Madras) with a strong foundation in AI, predictive modeling, and web development. Research Intern at the Micro-Nano R&D Centre, freelance web developer, and tech-driven initiative leader.",
+	"header_image_path": "experience.svg",
+	"sections": [
+		{
+			"title": "Work",
+			"experiences": [
+				{
+					"title": "Tech & Web Team Lead",
+					"company": "Noble Citizen Foundation",
+					"company_url": "https://www.noblecitizenfoundation.org/",
+					"logo_path": "ncf_logo.jpeg",
+					"duration": "Sept 2024 - Present",
+					"location": "Delhi, India",
+					"description": "Architected and led the end-to-end development of the foundation's website—initially built in WordPress, later migrated to Flask for greater flexibility, performance, and backend control. Integrated secure donation systems, dynamic content modules, and event automation to streamline operations and boost digital outreach.",
+					"color": "#0879bf"
+				},
+				{
+					"title": "Freelance Full-Stack & AI Developer",
+					"company": "Freelance",
+					"company_url": "",
+					"logo_path": "github_logo.png",
+					"duration": "2024 - Present",
+					"location": "Remote",
+					"description": "Worked on multiple freelance projects across AI, Agentic AI, and full-stack web development. Major projects include Mahima Medicare – a multi-role hospital ERP powering 250+ daily orders, 100+ patient appointments; and SS Tech Farming India – an AI-driven agritech platform with predictive analytics.",
+					"color": "#181717"
+				}
+			]
+		},
+		{
+			"title": "Internships",
+			"experiences": [
+				{
+					"title": "Research Intern",
+					"company": "Micro-Nano R&D Centre",
+					"company_url": "",
+					"logo_path": "micronano_logo.jpg",
+					"duration": "2024 - Present",
+					"location": "India",
+					"description": "Contributed to multiple CSIR-backed and academic research projects, applying advanced machine learning techniques such as GBRNN, LSTM, and SHAP across high-dimensional scientific datasets. Built and optimized ML pipelines with robust validation strategies and Bayesian hyperparameter tuning.",
+					"color": "#4285F4"
+				},
+				{
+					"title": "Intel Unnati Industrial Training",
+					"company": "Intel",
+					"company_url": "https://www.intel.com/",
+					"logo_path": "intel_logo.jpg",
+					"duration": "2024",
+					"location": "India",
+					"description": "Selected among top engineering talent for advanced training in AI, ML, and emerging technologies; recognized by Intel and university leadership as part of the Elite Student Cohort.",
+					"color": "#0071C5"
+				}
+			]
+		},
+		{
+			"title": "Volunteerships",
+			"experiences": [
+				{
+					"title": "Google Explore ML Facilitator",
+					"company": "JITSIE, IIT Madras (Tata Groups)",
+					"company_url": "https://about.google/",
+					"logo_path": "jitsie_logo.jpeg",
+					"duration": "June 2019 - April 2020",
+					"location": "Hyderabad, Telangana",
+					"description": "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus.",
+					"color": "#4285F4"
+				}
+			]
+		}
+	]
+}
