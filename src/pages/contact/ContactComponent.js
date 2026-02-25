@@ -9,7 +9,6 @@ import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   constructor(props) {
@@ -106,7 +105,11 @@ class Contact extends Component {
                   borderColor: theme.text + "15",
                 }}
               >
-                <div className="contact-card-icon">📧</div>
+                <div className="contact-card-icon">
+                  <span role="img" aria-label="email">
+                    📧
+                  </span>
+                </div>
                 <h3 style={{ color: theme.text }}>Email</h3>
                 <p style={{ color: theme.secondaryText }}>
                   divyanshudubey2712@gmail.com
@@ -118,6 +121,10 @@ class Contact extends Component {
                 className="contact-card"
                 style={{
                   backgroundColor: theme.highlight,
+                  <span role="img" aria-label="phone">
+                    📞
+                  </span>
+                
                   borderColor: theme.text + "15",
                 }}
               >
@@ -129,6 +136,10 @@ class Contact extends Component {
               <a
                 href="https://wa.me/919601981524"
                 target="_blank"
+                  <span role="img" aria-label="whatsapp">
+                    💬
+                  </span>
+                
                 rel="noopener noreferrer"
                 className="contact-card"
                 style={{
@@ -140,6 +151,10 @@ class Contact extends Component {
                 <h3 style={{ color: theme.text }}>WhatsApp</h3>
                 <p style={{ color: theme.secondaryText }}>+91 9601981524</p>
               </a>
+                  <span role="img" aria-label="location">
+                    📍
+                  </span>
+                
 
               <a
                 href={addressSection.location_map_link}
@@ -250,10 +265,10 @@ class Contact extends Component {
                     {this.state.sending
                       ? "Sending..."
                       : this.state.sent
-                      ? "\u2705 Message Sent!"
+                      ? <><span role="img" aria-label="check">✅</span> Message Sent!</>
                       : this.state.error
-                      ? "\u274c Failed — Try Again"
-                      : "Send Message \u2192"}
+                      ? <><span role="img" aria-label="cross">❌</span> Failed — Try Again</>
+                      : <>Send Message <span role="img" aria-label="arrow">→</span></>}
                   </button>
                   {this.state.sent && (
                     <p className="contact-success-msg">

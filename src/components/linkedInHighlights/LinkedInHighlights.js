@@ -53,7 +53,14 @@ export default function LinkedInHighlights({ theme }) {
 
               <div className="li-post-card-bottom">
                 <div className="li-post-reactions">
-                  <span className="li-reaction-icons">👍❤️</span>
+                  <span className="li-reaction-icons">
+                    <span role="img" aria-label="like">
+                      👍
+                    </span>
+                    <span role="img" aria-label="heart">
+                      ❤️
+                    </span>
+                  </span>
                 </div>
               </div>
             </a>
