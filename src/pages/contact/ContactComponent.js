@@ -121,14 +121,14 @@ class Contact extends Component {
                 className="contact-card"
                 style={{
                   backgroundColor: theme.highlight,
-                  <span role="img" aria-label="phone">
-                    📞
-                  </span>
-                
                   borderColor: theme.text + "15",
                 }}
               >
-                <div className="contact-card-icon">📞</div>
+                <div className="contact-card-icon">
+                  <span role="img" aria-label="phone">
+                    📞
+                  </span>
+                </div>
                 <h3 style={{ color: theme.text }}>Phone</h3>
                 <p style={{ color: theme.secondaryText }}>+91 9601981524</p>
               </a>
@@ -136,10 +136,6 @@ class Contact extends Component {
               <a
                 href="https://wa.me/919601981524"
                 target="_blank"
-                  <span role="img" aria-label="whatsapp">
-                    💬
-                  </span>
-                
                 rel="noopener noreferrer"
                 className="contact-card"
                 style={{
@@ -147,14 +143,14 @@ class Contact extends Component {
                   borderColor: theme.text + "15",
                 }}
               >
-                <div className="contact-card-icon">💬</div>
+                <div className="contact-card-icon">
+                  <span role="img" aria-label="whatsapp">
+                    💬
+                  </span>
+                </div>
                 <h3 style={{ color: theme.text }}>WhatsApp</h3>
                 <p style={{ color: theme.secondaryText }}>+91 9601981524</p>
               </a>
-                  <span role="img" aria-label="location">
-                    📍
-                  </span>
-                
 
               <a
                 href={addressSection.location_map_link}
@@ -166,7 +162,11 @@ class Contact extends Component {
                   borderColor: theme.text + "15",
                 }}
               >
-                <div className="contact-card-icon">📍</div>
+                <div className="contact-card-icon">
+                  <span role="img" aria-label="location">
+                    📍
+                  </span>
+                </div>
                 <h3 style={{ color: theme.text }}>Location</h3>
                 <p style={{ color: theme.secondaryText }}>
                   {addressSection["subtitle"]}
@@ -298,7 +298,7 @@ class Contact extends Component {
                     rel="noopener noreferrer"
                     className="contact-resume-btn"
                   >
-                    📄 Download Resume
+                    <span role="img" aria-label="resume">📄</span> Download Resume
                   </a>
                 </div>
               </div>
